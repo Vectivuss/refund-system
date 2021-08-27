@@ -136,7 +136,7 @@ concommand.Add( "p.refund.menu", function( p )
 	activeUser:SetSize( h*.14, h*.14 )
 	activeUser:SetPos( w*.008, h*.015 )
 	activeUser:SetVisible( false )
-	draw.SimpleText( selectedPlayer, "ui.21", w*.05, h*.4, Color( 200, 200, 200 ), TEXT_ALIGN_LEFT, TEXT_ALIGN_TOP )
+	draw.SimpleText( selectedPlayer, "ui1.21", w*.05, h*.4, Color( 200, 200, 200 ), TEXT_ALIGN_LEFT, TEXT_ALIGN_TOP )
 
 	local item = vgui.Create( "DTextEntry", infoPanel )
 	item:SetPos( w*.005, h*.283 )
