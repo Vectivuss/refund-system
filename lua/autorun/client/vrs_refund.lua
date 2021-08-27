@@ -4,7 +4,7 @@ do end
 
 concommand.Add( "p.refund.menu", function( p )
 
-	local p, w, h = LocalPlayer(), ScrWH()
+	local p, w, h = LocalPlayer(), ScrW(), ScrH()
 	local selectedPlayer = nil
 	local refund = true
 
